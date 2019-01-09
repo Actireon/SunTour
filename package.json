@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-image": "^4.4.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-cli": "^2.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-scss": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

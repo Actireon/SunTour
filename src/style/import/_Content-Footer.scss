@@ -1,0 +1,165 @@
+.content {
+    margin: 0 auto;
+    width: 77%;
+    height: 1605px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content_block-2,
+.content_block-3, 
+.content_block-12, 
+.content_block-13, 
+.content_block-14, 
+.content_block-16 {
+    width: 78%;
+}
+
+.content_block-5, 
+.content_block-6, 
+.content_block-7 {
+    width: 93%;
+}
+
+.content_block-9, 
+.content_block-10, 
+.content_block-11 {
+    width: 90%;
+}
+
+.content_block-1 {
+    font: bold 52px $ff;
+}
+
+.content_block-2, .mini_text-2 {
+    font-weight: bold;
+}
+
+.mini_text-2 {
+    line-height: 30px;
+}
+
+.content_of_blocks-4-8 {
+    display: flex;
+    height: 450px;
+}
+
+.content_block-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content_block-8 {
+    margin-top: -55px;
+}
+
+
+.mini_text {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.content_block-6 {
+    background-color: #F0FBFE;
+    border-left: 9px solid #00BFF3;
+    margin-left: 45px;
+    padding: 18px;
+    font-style: italic;
+    box-sizing: border-box;
+}
+
+.content_block-9 {
+    color: grey;
+    font: bold 100px $ff;
+}
+
+.content_block-10 {
+    font: 28px $ff;
+}
+
+.content_block-11 {
+    color: grey;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.content_of_blocks-14-16 {
+    margin-top: 25px;
+    height: 195px;
+    flex-direction: column;
+}
+
+.content_block-14 {
+    display: flex;
+    background-color: #EBEBEB;
+    justify-content: space-around;
+    padding: 11px;
+}
+
+.content_block-16 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_block-15 {
+    font-weight: bold;
+    font-size: 14px;
+    width: 110px;
+}
+
+.content_block-17 {
+    padding: 18px;
+    width: 15%;
+    box-sizing: border-box;
+    line-height: 33px;
+}
+
+.content_block-19 {
+    height: 145px;
+    margin: 7px;
+    line-height: 28px;
+}
+
+.footer_block-20 {
+    height: 50px;
+    border-top: 1px solid gray;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_block-21 {
+    height: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_block-22 {
+    width: 50%;
+    font-size: 13px;
+}
+
+.footer_block-23 {
+    height: 35px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_circle_icon {
+    height: 32px;
+    width: 32px;
+    background-color: #00BFF3;
+    border-radius: 100%;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_icon {
+    color: white;
+}

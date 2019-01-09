@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial";
+}
+
+$ff: "Trebuchet MS";
+
+.header {
+    width: 100%;
+    background-color: #00BFF3;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nav_main_blocks {
+    width: 77%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_block-1,
+.nav_block-2,
+.nav_block-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_block-1 {
+    width: 33%;
+}
+
+.nav_block-2 {
+    width: 69%;
+}
+
+.nav_block-3 {
+    width: 23%;
+}
+
+.nav_main_blocks-2-3 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_logo {
+    background-image: url('../img/LOGO-SVG.png');
+    background-repeat: no-repeat;
+    width: 52%;
+    height: 43px;
+}
+
+.nav_logo_text {
+    margin-top: 9px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.nav_numbers {
+    font-size: 30px;
+    color: white;
+}
+
+.nav_callback {
+    color: white;
+    border-bottom: 1px dashed white;
+    font-weight: bold;
+}
+
+.nav_circle_icon {
+    height: 32px;
+    width: 32px;
+    background-color: white;
+    border-radius: 100%;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_icon {
+    color: #00BFF3;
+}
