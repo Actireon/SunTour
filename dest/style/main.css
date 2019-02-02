@@ -36,12 +36,30 @@ body {
   width: 33%;
 }
 
+@media (max-width: 1300px) {
+  .nav_block-1 {
+    width: 38%;
+  }
+}
+
 .nav_block-2 {
   width: 69%;
 }
 
 .nav_block-3 {
   width: 23%;
+}
+
+@media (max-width: 1300px) {
+  .nav_block-3 {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav_block-3 {
+    width: 28%;
+  }
 }
 
 .nav_main_blocks-2-3 {
@@ -55,6 +73,12 @@ body {
   background-repeat: no-repeat;
   width: 52%;
   height: 43px;
+}
+
+@media (max-width: 1024px) {
+  .nav_logo {
+    width: 100%;
+  }
 }
 
 .nav_logo_text {
@@ -91,11 +115,47 @@ body {
 
 .article {
   margin: 0 auto;
-  width: 77%;
+  width: 71%;
   height: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (max-width: 1920px) {
+  .article {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1736px) {
+  .article {
+    width: 61%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .article {
+    width: 66%;
+  }
+}
+
+@media (max-width: 1536px) {
+  .article {
+    width: 71%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .article {
+    width: 77%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .article {
+    width: 86%;
+  }
 }
 
 .article_main_block-1 {
@@ -124,6 +184,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .article_block_radius {
+    width: 94%;
+  }
 }
 
 .article_block-2 {
@@ -240,6 +306,12 @@ body {
   margin-top: -55px;
 }
 
+@media (max-width: 1024px) {
+  .article_block-14 {
+    width: 18%;
+  }
+}
+
 .article_block-15 {
   font: bold 90px "Trebuchet MS";
   color: gray;
@@ -327,11 +399,53 @@ body {
 
 .content {
   margin: 0 auto;
-  width: 77%;
+  width: 71%;
   height: 1605px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (max-width: 1920px) {
+  .content {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1700px) {
+  .content {
+    width: 66%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .content {
+    width: 66%;
+  }
+}
+
+@media (max-width: 1536px) {
+  .content {
+    width: 71%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .content {
+    width: 77%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .content {
+    width: 86%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    width: 93%;
+  }
 }
 
 .content_block-2,
